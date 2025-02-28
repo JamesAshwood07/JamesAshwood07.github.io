@@ -12,16 +12,11 @@
             background-color: #ffffff;
             color: #0d0d0d;
             display: flex;
-            justify-content: center;
+            flex-direction: column;
+            align-items: center;
         }
         
-        .container {
-            width: 60%;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        
-        /* Navigation Bar */
+        /* Full-width Navigation Bar */
         nav {
             display: flex;
             justify-content: flex-end;
@@ -53,6 +48,13 @@
         
         nav ul li a:hover {
             color: #0d0d0d;
+        }
+        
+        /* Main Content Container */
+        .container {
+            width: 60%;
+            max-width: 1200px;
+            margin: 20px auto;
         }
         
         /* Page Title */
@@ -90,7 +92,7 @@
             display: block;
         }
         
-        /* Footer */
+        /* Full-width Footer */
         footer {
             text-align: center;
             padding: 15px;
